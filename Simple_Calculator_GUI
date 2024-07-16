@@ -24,3 +24,8 @@ def button_click(symbol):
             entry.insert(tk.END, "Error")
     else:
         entry.insert(tk.END, symbol)
+
+# This is the section for creating the main window
+
+window = tk.Tk()
+window.title("Simple Calculator")
